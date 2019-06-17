@@ -32,7 +32,7 @@ bthtml += "<li><a href=\"#\" onclick='play(\"101\"); getEpgCH(101);' class=\"btn
 bthtml += "<li><a href=\"#\" onclick='play(\"102\"); getEpgCH(102);' class=\"btn-primary m-1 02\"><span class=\"bespain\">HD2</span><span class=\"besubspan\">MAX</span></a></li>";
 bthtml += "<li><a href=\"#\" onclick='play(\"103\"); getEpgCH(103);' class=\"btn-primary m-1 03\"><span class=\"bespain\">HD3</span><span class=\"besubspan\">MAX</span></a></li>";
 bthtml += "<li><a href=\"#\" onclick='play(\"104\"); getEpgCH(104);' class=\"btn-primary m-1 04\"><span class=\"bespain\">HD4</span><span class=\"besubspan\">MAX</span></a></li>";
-document.getElementById("beinnav").innerHTML = bthtml;
+document.getElementById("beinnavAR").innerHTML = bthtml;
 var spiner = "spiner.png";
 var bespainz = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9zc28iOiI1YmExMjA1ZGU0NGM4Y2IwYjk3ZmQ0ZThARnVibyIsImdyYW50X3R5cGUiOiJwYXNzd29yZCIsInVzZXJfbmFtZSI6IiIsInNjb3BlIjpbXSwiaWRfaWRlbnRpdHkiOjg1NzI4LCJzc29fcHJvdmlkZXIiOiJhZG9iZXBhc3MiLCJhcGlwIjoiNTEuMTUuMTQxLjE3OSIsImV4cCI6MTU2MDkyODU2NTkyMywiYXV0aG9yaXRpZXMiOlsiRW5kVXNlclJvbGUiXSwianRpIjoiNGI5OGI0NWItMTg0ZC00ODM3LWE5NjItMTE1ZTk3ZmQ4OTkyIiwiY2xpZW50X2lkIjoidHVjYW5vVHJ1c3RlZFVzZXIifQ.vzJSOurFDV4bP9uI9pC_2dWi1Ue7iDS-4ktvS03NImk2fY0AYrQQUzVeOCqHhimUPlofL6fOFz8BzYblueuEA3AFugPx-RSNwRFgonCglZ4eq105noClo21dA7De9n9K0vqeNuwGL3ogCkfgO8N4LGzq0p-ZDJtLXfKxri5i3Epmui-Ym4uQcnjCaN2WXstH-Is15pYTRwKgDGvkBX91Ao9gcw4dWaLJBUgYWOb7Xl9C71zx_s-mWvHjYR6xgiV3F47eRNaB8HEA7sbKVA3AgV5ttD4RDwHuumZ8Xb3MvaVtX0Ew8W8P_L3omSRcUSGN-BkmWbw5Et0Fw7_CbwGhFA";
 var bespai = "12";
