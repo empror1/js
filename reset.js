@@ -1,4 +1,9 @@
-var bthtml = "<li><a href=\"#\" onclick='play(\"74\", \"15584825535737082\", \"15584825555696637\", \"3\"); getEpgCH(74);' class=\"btn-primary m-1 01\"><span class=\"bespain\">HD</span><span class=\"besubspan\">beIN</span></a></li>";
+var bthtml = "";
+bthtml += "<li><a href=\"#\" onclick='play(\"101\"); getEpgCH(101);' class=\"btn-primary m-1 01\"><span class=\"bespain\">HD1</span><span class=\"besubspan\">MAX</span></a></li>";
+bthtml += "<li><a href=\"#\" onclick='play(\"102\"); getEpgCH(102);' class=\"btn-primary m-1 02\"><span class=\"bespain\">HD2</span><span class=\"besubspan\">MAX</span></a></li>";
+bthtml += "<li><a href=\"#\" onclick='play(\"103\"); getEpgCH(103);' style=\"background: #FFFFFF !important;\" class=\"btn-primary m-1 03\"><span class=\"bespain\">HD3</span><span class=\"besubspan\">MAX</span></a></li>";
+bthtml += "<li><a href=\"#\" onclick='play(\"104\"); getEpgCH(104);' class=\"btn-primary m-1 04\"><span class=\"bespain\">HD4</span><span class=\"besubspan\">MAX</span></a></li><br><br>";
+bthtml += "<li><a href=\"#\" onclick='play(\"74\", \"15584825535737082\", \"15584825555696637\", \"3\"); getEpgCH(74);' class=\"btn-primary m-1 01\"><span class=\"bespain\">HD</span><span class=\"besubspan\">beIN</span></a></li>";
 bthtml += "<li><a href=\"#\" onclick='play(\"75\", \"15584905149170385\", \"15584905149130051\", \"3\"); getEpgCH(75);' class=\"btn-primary m-1 02\"><span class=\"bespain\">News</span><span class=\"besubspan\">beIN</span></a></li>";
 bthtml += "<li><a href=\"#\" onclick='play(\"65\", \"15591756542973586\", \"15591756542952475\", \"1\"); getEpgCH(65);' class=\"btn-primary m-1 03\"><span class=\"bespain\">HD1</span><span class=\"besubspan\">beIN</span></a></li>";
 bthtml += "<li><a href=\"#\" onclick='play(\"66\", \"15591756831124963\", \"15591756831084408\", \"2\"); getEpgCH(66);' class=\"btn-primary m-1 04\"><span class=\"bespain\">HD2</span><span class=\"besubspan\">beIN</span></a></li>";
@@ -28,10 +33,6 @@ bthtml += "<li><a href=\"#\" onclick='play(\"170\", \"15584825535737082\", \"155
 bthtml += "<li><a href=\"#\" onclick='play(\"91\", \"15584825535737082\", \"15584825555696637\", \"3\"); getEpgCH(91);' class=\"btn-primary m-1 29\"><span class=\"bespain\">Junior</span><span class=\"besubspan\">beIN</span></a></li>";
 bthtml += "<li><a href=\"#\" onclick='play(\"99\", \"15584825535737082\", \"15584825555696637\", \"3\"); getEpgCH(99);' class=\"btn-primary m-1 30\"><span class=\"bespain\">Bareem</span><span class=\"besubspan\">beIN</span></a></li>";
 bthtml += "<li><a href=\"#\" onclick='play(\"100\", \"15584825535737082\", \"15584825555696637\", \"3\"); getEpgCH(100);' class=\"btn-primary m-1 24\"><span class=\"bespain\">Jeem</span><span class=\"besubspan\">beIN</span></a></li>";
-bthtml += "<li><a href=\"#\" onclick='play(\"101\"); getEpgCH(101);' class=\"btn-primary m-1 01\"><span class=\"bespain\">HD1</span><span class=\"besubspan\">MAX</span></a></li>";
-bthtml += "<li><a href=\"#\" onclick='play(\"102\"); getEpgCH(102);' class=\"btn-primary m-1 02\"><span class=\"bespain\">HD2</span><span class=\"besubspan\">MAX</span></a></li>";
-bthtml += "<li><a href=\"#\" onclick='play(\"103\"); getEpgCH(103);' class=\"btn-primary m-1 03\"><span class=\"bespain\">HD3</span><span class=\"besubspan\">MAX</span></a></li>";
-bthtml += "<li><a href=\"#\" onclick='play(\"104\"); getEpgCH(104);' class=\"btn-primary m-1 04\"><span class=\"bespain\">HD4</span><span class=\"besubspan\">MAX</span></a></li>";
 document.getElementById("beinnavAR").innerHTML = bthtml;
 var spiner = "spiner.png";
 var bespainz = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9zc28iOiI1YmExMjA1ZGU0NGM4Y2IwYjk3ZmQ0ZThARnVibyIsImdyYW50X3R5cGUiOiJwYXNzd29yZCIsInVzZXJfbmFtZSI6IiIsInNjb3BlIjpbXSwiaWRfaWRlbnRpdHkiOjg1NzI4LCJzc29fcHJvdmlkZXIiOiJhZG9iZXBhc3MiLCJhcGlwIjoiNTEuMTUuMTQxLjE3OSIsImV4cCI6MTU2MDkyODU2NTkyMywiYXV0aG9yaXRpZXMiOlsiRW5kVXNlclJvbGUiXSwianRpIjoiNGI5OGI0NWItMTg0ZC00ODM3LWE5NjItMTE1ZTk3ZmQ4OTkyIiwiY2xpZW50X2lkIjoidHVjYW5vVHJ1c3RlZFVzZXIifQ.vzJSOurFDV4bP9uI9pC_2dWi1Ue7iDS-4ktvS03NImk2fY0AYrQQUzVeOCqHhimUPlofL6fOFz8BzYblueuEA3AFugPx-RSNwRFgonCglZ4eq105noClo21dA7De9n9K0vqeNuwGL3ogCkfgO8N4LGzq0p-ZDJtLXfKxri5i3Epmui-Ym4uQcnjCaN2WXstH-Is15pYTRwKgDGvkBX91Ao9gcw4dWaLJBUgYWOb7Xl9C71zx_s-mWvHjYR6xgiV3F47eRNaB8HEA7sbKVA3AgV5ttD4RDwHuumZ8Xb3MvaVtX0Ew8W8P_L3omSRcUSGN-BkmWbw5Et0Fw7_CbwGhFA";
